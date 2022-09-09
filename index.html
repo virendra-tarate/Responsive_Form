@@ -1,0 +1,58 @@
+<!--
+Copyright reserved by Virendra Tarate
+Don't remove this copyright comment of developer
+-->
+<!DOCTYPE HTML/>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>
+            Form
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <!--google font & icon -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+        <!--////-->
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        
+    </head>
+    <body>
+        <div id="form-div">
+            <form name="form" id="form" method="post">
+                <h1 id="heading">
+                    Login Here
+                </h1>
+                <br/><br/><br/>
+                
+                <div class="input-box">
+                
+                <input class="inp" type="email" name="email" id="email" placeholder="Enter Your Email..." required/>
+                
+                </div>
+                <br/><br/>
+                <div class="input-box">
+                <input class="inp" type="password" name="password" id="password" placeholder="Enter Your Password..." required/>
+                
+                </div>
+                <p onclick="show()" align="left" style="cursor:pointer;">
+                <i id="open" style="font-size:24px;color:white;position:absolute;font-size:3vh;" class="fa">&#xf06e;</i>
+                
+                <i id="close" style="font-size:24px;color:white;position:absolute;font-size:3vh;" class="fa">&#xf070;</i>
+                </p>
+                
+                
+                
+                <br/><br/><br/><br/>
+                <button id="button">
+                    Submit
+                </button>
+                
+            </form>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
