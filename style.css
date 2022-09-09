@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body
+    {
+        height: 100vh;
+        width:100vw;
+        background-image:url("bg.png");
+        background-size:cover;
+        
+    }
+
+#form-div
+    {
+        display:flex;
+        justify-content:center;
+        align-content:center;
+        padding-top:20vh;
+        max-height:100vh;
+        max-width:100vw;
+    }
+
+#form
+    {
+        background-color:transparent;
+        text-align:center;
+        width:100vw;
+        padding:10%;
+    }
+
+#heading
+    {
+        color:white;
+        font-size:40px;
+        text-align: center;
+    }
+
+.inp
+    {
+        border:none;
+        outline:none;
+        background:transparent;
+        color:white;
+        width:100%;
+        
+    }
+
+.input-box
+    {
+        border-bottom:2px solid white;
+        width:100%;
+        
+        color:white;
+    }
+
+::placeholder
+    {
+        color:#00FFEF;
+    }
+
+#button
+    {
+        width:100%;
+        
+        padding:10px;
+        background-color:transparent;
+        color:white;
+        border:solid white 2px;
+        font-size:14px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    #button:hover{
+        animation-name:btt;
+        animation-duration:1s;
+        animation-direction:alternate;
+        animation-timing-function:linear;
+        animation-iteration-count:2;
+    }
+
+    @keyframes btt{
+        from{
+            border-color:rgb(0, 255, 170);
+            
+            
+        }
+
+        to{
+            border-color: #00ffff;
+            
+        }
+    }
+
+#form input 
+    {
+        font-size:30px;
+    }
